@@ -11,7 +11,15 @@ const Search = ({onSearchChange}) => {
             `${Geo_API_URL}/cities?minPopulation=1000000&namePrefix=${inputValue}`,
              geoApioptions)
             .then(response => response.json())
-            .then(response => console.log(response))
+            .then(response =>{ return{
+                options: response.data.map((city) => {
+                    return {
+                        value: `${city.latitude} ${city.longitude}`,
+                        label: `${city.name}, ${city.countryCode}`,
+                    }
+                })
+            }
+        })
             .catch(err => console.error(err));
     }
 
