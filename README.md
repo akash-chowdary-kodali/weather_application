@@ -1,5 +1,7 @@
 # Weather Web Application
-## Build upon react js using OpenWeatherApi from OpenWeatherMap.org and GeoDB Cites Api from RapidApi.com .
+## Build upon react js using OpenWeatherApi from OpenWeatherMap.org and GeoDB Cites Api from RapidApi.com 
+
+### Api Sources
  a. OpenWeatherApi - https://openweathermap.org/
  b. GeoDB Cites Api - https://rapidapi.com/wirefreethought/api/geodb-cities/
 
