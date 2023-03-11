@@ -25,7 +25,7 @@ const Forecast = ({ data }) => {
 
   return (
     <>
-      <label className="title">Daily</label>
+      <label className="title">Weekly Forecast</label>
       <Accordion allowZeroExpanded>
         {data.list.slice(0, 7).map((item, idx) => (
           <AccordionItem key={idx}>
@@ -66,7 +66,7 @@ const Forecast = ({ data }) => {
                         <label>{item.main.sea_level} m</label>
                     </div>
                     <div className="daily-details-grid-item">
-                        <label>Feels Like: </label>
+                        <label>Feels Like</label>
                         <label>{item.main.feels_like} °C</label>
                     </div>
                     

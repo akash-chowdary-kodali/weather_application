@@ -32,6 +32,7 @@ function App() {
   console.log(forecast);
   return (
     <div className="container">
+      <p class = "pcity">Get current weather and Seven days of forecast</p>
       <Search onSearchChange={handleOnSearchChange}/>
       {currentWeather && <CurrentWeather data={currentWeather}/>}
       {forecast && <Forecast data = {forecast}/>}
