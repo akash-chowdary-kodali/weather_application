@@ -1,4 +1,8 @@
 import './App.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Search from './components/search/search';
 import Forecast from './components/forecast/forecast';
 import CurrentWeather from './components/current_weather/currentWeather';
@@ -31,12 +35,23 @@ function App() {
   console.log(currentWeather);
   console.log(forecast);
   return (
+  <>
+    <Navbar bg="dark" variant="dark" className='navigation'>
+        <Container>
+          <Navbar.Brand href="#home" className='heading'>Weather App</Navbar.Brand>
+          <Nav className="me-right">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">About</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
     <div className="container">
       <p class = "pcity">Get current weather and Seven days of forecast</p>
       <Search onSearchChange={handleOnSearchChange}/>
       {currentWeather && <CurrentWeather data={currentWeather}/>}
-      {forecast && <Forecast data = {forecast}/>}
+      {forecast && <Forecast data = {forecast}/>} 
     </div>
+    </>
   );
 }
 

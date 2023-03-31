@@ -9,3 +9,14 @@
   font-weight: 700;
   color: #262626;
 }
+
+.navigation{
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  height: 70px;
+}
+
+.navigation .heading{
+  font-size: 30px
+}

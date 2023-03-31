@@ -1,10 +1,10 @@
-body {
+body{
   margin: 0;
   font-family: "Roboto", Arial !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #d5d4d4; */
   background-image: url('./images/white-cloud-blue-sky.jpg');
+  background-size: cover;
   width: 100%;
 }
 
