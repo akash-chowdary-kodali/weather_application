@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,300;0,700;1,400;1,700&display=swap');
+
+
 body{
   margin: 0;
-  font-family: "Roboto", Arial !important;
+  /* font-family: "Roboto", Arial !important;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-image: url('./images/white-cloud-blue-sky.jpg');
-  background-size: cover;
+  /* background-color: beige; */
+  background-size: fill;
   width: 100%;
 }
 

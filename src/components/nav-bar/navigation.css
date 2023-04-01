@@ -1,0 +1,42 @@
+.nav-links .link1{
+    text-decoration: none;
+    color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.nav-links{
+    font-size: 24px;
+}
+
+.nav-links .link2{
+    text-decoration: none;
+    color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.link1:hover{
+    color: aliceblue;
+}
+
+.link2:hover{
+    color: aliceblue;
+}
+/* 
+.dynamic-section{
+    display: none;
+    font-size: 20px;
+}
+
+@media (width < 600px) {
+    .dynamic-section{
+        display: block;
+    }
+
+    .nav-links{
+        display: none
+    }
+} */
