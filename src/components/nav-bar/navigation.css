@@ -25,10 +25,34 @@
 .link2:hover{
     color: aliceblue;
 }
-/* 
+
+.More-section{
+    background-color: transparent;
+    border-color: #ccc;
+}
+
+.More-section:hover{
+    background-color: rgb(31, 55, 82);
+}
 .dynamic-section{
     display: none;
     font-size: 20px;
+}
+
+.dynamic-section .link1{
+    text-decoration: none;
+    color: #262525;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.dynamic-section .link2{
+    text-decoration: none;
+    color: #262525;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
 }
 
 @media (width < 600px) {
@@ -39,4 +63,4 @@
     .nav-links{
         display: none
     }
-} */
+}
