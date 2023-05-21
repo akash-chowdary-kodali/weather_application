@@ -1,3 +1,15 @@
+.navigation{
+    background-color: #191919;
+}
+
+.navigation .headingn{
+    color: #fcfdfe;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
 .nav-links .link1{
     text-decoration: none;
     color: #ccc;
@@ -27,8 +39,10 @@
 }
 
 .More-section{
-    background-color: transparent;
-    border-color: #ccc;
+    background-color: #a0c2e0;
+    border-color: transparent;
+    color: #191919;
+    font-weight: 500;
 }
 
 .More-section:hover{
@@ -62,5 +76,9 @@
 
     .nav-links{
         display: none
+    }
+
+    .navigation .headingn{
+        font-size: 24px;
     }
 }

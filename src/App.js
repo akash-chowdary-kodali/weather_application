@@ -1,8 +1,8 @@
-import "./app.css";
+import "./App.css";
 import NAVI_BAR from "./components/nav-bar/navigation";
 import HomePage from "./pages/home";
 import AboutPage from "./pages/about";
-import {BrowserRouter as Router,
+import {HashRouter as Router,
   Route,
   Routes
 } from "react-router-dom";

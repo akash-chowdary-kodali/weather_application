@@ -1,8 +1,29 @@
-.container{
-    max-width: 1080px;
-    margin: 20px auto;
+.containera{
+    max-width: 1000px;
+    margin: 150px auto;
   }
 
-.des1{
-  font-size: 24px;
+  .des1{
+  font-size: 30px;
+  }
+
+  .dev{
+
+  }
+
+  .contact-links a{
+    padding-right: 20px;
+  }
+
+  .contact-links a img:hover{
+    height: 50px;
+    transition: 1s;
+    box-shadow: 0px 0px 5px 3px #fcfdfe;
+  }
+
+@media (width < 1000px){
+  .containera{
+    margin: 150px 20px;
+  }
+
 }

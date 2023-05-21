@@ -11,9 +11,9 @@ export default function NAVI_BAR() {
 
   // const splitLocation = pathname.split("/");
   return (
-    <Navbar bg="dark" variant="dark" className="navigation">
+    <Navbar bg="dark" variant="dark" className="navigation fixed-top">
       <Container>
-        <Navbar.Brand className="heading">Weather App</Navbar.Brand>
+        <Navbar.Brand className="headingn">Weather App</Navbar.Brand>
         <Nav className="nav-links">
           <Nav.Link>
             <NavLink to="/" className="link1">
