@@ -6,11 +6,14 @@ import {HashRouter as Router,
   Route,
   Routes
 } from "react-router-dom";
+import ScrollToTop from "./pages/scrolltoTop";
+
 function App() {
   return (
     <>
       <Router>
         <NAVI_BAR />
+        <ScrollToTop/>
         <Routes>
           <Route exact path="/" element={<HomePage />} />
           <Route exact path="/about" element={<AboutPage />} />

@@ -16,7 +16,7 @@ function AboutPage() {
       {/* <h4>Developer Links:</h4> */}
       <div className="contact-links">
         <a href="https://www.linkedin.com/in/akash-chowdary-kodali-885aa5240/" rel="noreferrer" target="_blank">
-          <img src={'./icons/linkedin.png'} height={40} alt="linkedin-link"/>
+          <img src={require('./icons/linkedin.png') } height={40} alt="linkedin-link"/>
         </a>
         <a href="https://github.com/akodali9" rel="noreferrer" target="_blank">
           <img src={require('./icons/github.png')} height={40} alt="Github-link"/>
