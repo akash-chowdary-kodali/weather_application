@@ -3,15 +3,8 @@
 
 body{
   margin: 0;
-  /* font-family: "Roboto", Arial !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
-  background-image: url('./images/white-cloud-blue-sky.jpg');
-  /* background-color: beige; */
-  background-size: fill;
-  width: 100%;
 }
 
 code {

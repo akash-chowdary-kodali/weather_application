@@ -1,3 +1,8 @@
+body{
+  background-image: url('./images/white-cloud-blue-sky.jpg');
+  background-size: fill;
+  width: 100%;
+}
 .container{
     max-width: 1080px;
     margin: 10px auto;
