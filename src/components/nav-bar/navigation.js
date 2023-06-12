@@ -15,15 +15,12 @@ export default function NAVI_BAR() {
       <Container>
         <Navbar.Brand className="headingn">Weather App</Navbar.Brand>
         <Nav className="nav-links">
-          <Nav.Link>
-            <NavLink to="/" className="link1">
-              Home
-            </NavLink>
+          <Nav.Link to="/" className="link1">
+            Home
           </Nav.Link>
-          <Nav.Link>
-            <NavLink to="/about" className="link2">
-              About
-            </NavLink>
+
+          <Nav.Link to="/about" className="link2">
+            About
           </Nav.Link>
         </Nav>
         <Dropdown className="dynamic-section">
