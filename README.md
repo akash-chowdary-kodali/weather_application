@@ -1,5 +1,7 @@
 # Weather App built with React.js
 
+Website URL: <a href="https://akodali9.github.io/weather_application/">WeatherApp.live</a>
+
 <img src="./src/images/WeatherApp.png" height = "auto" width="80%"/>
 
 This Weather App is a React.js-based application that utilizes the GeoDBCities API and OpenWeather Map API to provide users with current weather conditions and a seven-week forecast upon search. This readme file provides an overview of the app's features, setup instructions, usage, and dependencies.
